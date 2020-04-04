@@ -1,0 +1,17 @@
+$primary-color: #fff;
+$secondary-color: #f9f9f9;
+
+.title-container {
+    background-color: $primary-color;
+}
+
+
+#navbarNav {
+.navbar-nav {
+    background-color: $secondary-color;
+}}
+
+.flex-container {
+@extend .title-container; 
+opacity: 0.6;
+}

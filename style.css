@@ -1,0 +1,121 @@
+/* 
+media viewport elements 
+*/
+
+/*Pc screens*/
+@media screen and (min-width: 960px) {
+    .header-image {
+        display:block;
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+   }
+   
+   .navbar-nav {
+       margin-left: auto;
+       margin-right: auto;
+   }
+   
+   .navbar-nav > .nav-item {
+       margin-left: 30px; 
+       margin-right: 30px;
+   }
+   
+   .carousel-item {
+       min-width:960px; 
+       max-height: 480px;
+   }
+   #mobile-nav {
+       display:none;
+   }
+   
+}
+/*tablet screens*/
+@media screen and (max-width: 960px){
+    .header-image {
+        display:block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+}
+ .navbar-nav > .nav-item {
+       margin-left: auto;
+       margin-right: auto;
+   } 
+   .navbar-toggler {
+       margin-left: auto;
+       margin-right: auto;
+   }
+   .carousel-item {
+       max-width:960px; 
+       max-height: 480px;
+   }
+
+   
+}
+/*smartphone screens*/
+@media screen and (max-width: 500px) {
+    .header-image {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .navbar-nav > .nav-item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-toggler {
+       margin-left: auto;
+       margin-right: auto;
+   }
+   .carousel-item {
+       max-width:5000px; 
+       max-height: 480px;
+   }
+}
+
+/*
+id styles
+*/
+
+#image-home {
+    padding: 100px;
+}
+#text-home {
+    padding: 100px;
+}
+#mobile-nav {
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#mobile-nav > a {
+    color: #6a737c;
+}
+#mobile-nav > a:hover {
+    color: #000
+}
+
+/*
+class styles
+*/
+
+.page-title {
+    font-size: 48px;
+}
+
+.catch-phrase {
+    font-size: 36px;
+    color: #6a737c;
+}
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+}
+h5 {
+    color: #000;
+}
+p {
+    color: #000;
+}
